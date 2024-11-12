@@ -12,10 +12,7 @@ class KomputerVIP extends Komputer {
     // (boleh berbeda dengan output jurnal tetapi dengan cangkupan masih sesuai oleh materi modul!)
     @Override
     public void Informasi() {
-        System.out.println("INFORMASI KOMPUTER");
-        System.out.println("Jumlah Komputer : " + super.jumlahKomputer);
-        System.out.println("Nama Warnet     : " + super.namaWarnet);
-        System.out.println("Harga Per Jam   : " + super.hargaPerJam);
+        super.Informasi();
         if (vipCard) {
             System.out.println("Status          : " + "Member VIP");
 

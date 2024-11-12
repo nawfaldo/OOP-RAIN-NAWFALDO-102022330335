@@ -19,7 +19,7 @@ public class Main {
         System.out.println();
 
         // To do: Panggillah Method Login
-        komputerVIP.Login();
+        komputerVIP.Login("Asep");
 
         // To do: Panggillah Method Bermain 2x agar dapat melakukan polymorphism overloading
         komputerVIP.Bermain(2);

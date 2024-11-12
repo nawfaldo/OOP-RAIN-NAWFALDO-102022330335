@@ -32,8 +32,8 @@ class KomputerVIP extends Komputer {
     }
     
     // To do: Buatlah method Login sesuai dengan ketentuan
-    public void Login() {
-        System.out.println("Login dengan username : Asep");
+    public void Login(String username) {
+        System.out.println("Login dengan username : " + username);
     }
 
     // To do: Buatlah method Bermain sesuai dengan ketentuan
